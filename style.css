@@ -1,0 +1,28 @@
+@media (max-width: 500px) {
+  body {
+    background-color: gray;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: aqua;
+    text-align: right;
+  }
+  img {
+    max-width: 50vw;
+    max-height: 50vw;
+  }
+}
+
+@media (max-width: 960px) {
+  body {
+    background-color: lightblue;
+    text-align: center;
+  }
+  img {
+    max-width: 25vw;
+    max-height: 25vw;
+  }
+}
